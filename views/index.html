@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="meetupApp" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+</head>
+<body>
+  <!--Meetups views-->
+     <div ng-controller="meetupsController">
+       <h1>Hello,There are {{meetups.length}} meetups</h1>
+       <ul>
+         <li ng-repeat="meetup in meetups">
+           {{meetup.name}}
+         </li>
+       </ul>
+       <form ng-submit="createMeetup()">
+         <input type="text" placeholder="Meetup name" ng-model="meetupName">
+         <button type="submit">Add</button></form>
+     </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-resource.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
+    <script type="text/javascript" src="/js/meetups-controller.js"></script>
+</body>
+</html>

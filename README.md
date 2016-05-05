@@ -1,8 +1,8 @@
 # MEAN-FIRST
->THIS IS MY FIRST MEAN
->M=Mongodb
->E=Express
->A=Angularjs
->N=Node.js
+>THIS IS MY FIRST MEAN＜/br＞
+>M=Mongodb＜/br＞
+>E=Express＜/br＞
+>A=Angularjs＜/br＞
+>N=Node.js＜/br＞
 
 
